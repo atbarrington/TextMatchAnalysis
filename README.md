@@ -9,7 +9,7 @@ The program is run with 3 input parameters as follows:
 2. File - desired output file (will be removed in future versions to allow flexibility with file redirection)
 3. Int  - number of threads to concurrently analyze website data
 
-The software contains 2 important folders that are important to mention:
+The software contains 2 important folders worth mentioning:
 
 * res - the resouce file that **must** contain a `dictionary.txt` and `words.txt file`. `dictionary.txt` contains all valid words to be recognized on a website delimited by newlines. `words.txt` contains the words to be counted for frequency.
 * src - the src file is optional in this release, however in future releases it will contain *all* files containing web addresses to be analyzed. It is recommended to organize lists of web address files in this directory.
